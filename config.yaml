@@ -1,0 +1,17 @@
+data:
+  seed: 42
+  cnn_features_setting:
+    frontend_algorithm: ["lfcc"]  # ["mfcc"] or ["lfcc"] or ["mfcc", "lfcc"] or []
+    use_spectrogram: False
+
+checkpoint:
+  # This part is used only in evaluation (each checkpoint is used in eval on corresponding fold).
+  # To ensure reliable results make sure that the order of checkpoints is correct (i.e. fold_0, fold_1, fold_2)
+  paths: []
+
+model:
+  name: "lcnn"
+  parameters:
+    input_channels: 1
+  optimizer:
+    lr: 0.0001

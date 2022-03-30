@@ -1,0 +1,12 @@
+data:
+  real_dir_path: []
+  fake_dir_path: []
+
+
+logging:
+  log_metrics: True
+  existing_experiment_id: "" # specify if you want to continue certain neptune experiment
+  name: "GMMs"
+  description: ""
+  tags: []
+  api_token_name: neptune_api_token

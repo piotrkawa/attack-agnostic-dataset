@@ -1,0 +1,16 @@
+data:
+  seed: 42
+  cnn_features_setting:
+    frontend_algorithm: ["mfcc"]  # ["mfcc"] or ["lfcc"] or ["mfcc", "lfcc"]
+    use_spectrogram: True
+
+checkpoint:
+  paths: []
+
+model:
+  name: "mesonet_inception"
+  parameters:
+    input_channels: 3
+    fc1_dim: 384
+  optimizer:
+    lr: 0.00001
