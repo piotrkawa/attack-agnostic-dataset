@@ -1,6 +1,6 @@
 # Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection
 
-The following repository contains code for our paper called "Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection".
+The following repository contains code for our paper called ["Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection"](https://arxiv.org/abs/2206.13979).
 
 
 We base our codebase on [WaveFake's repository](https://github.com/RUB-SysSec/WaveFake) (commit: `d52d51b`).
@@ -137,5 +137,19 @@ To evaluate GMM models:
 python evaluate_models.py --asv_path ../datasets/ASVspoof2021/LA --wavefake_path ../datasets/WaveFake --celeb_path ../datasets/FakeAVCeleb/FakeAVCeleb_v1.2 --lfcc --use_gmm
 ```
 
+## Citation
+
+If you use this code in your research please use the following citation:
+
+```
+@misc{kawa2022attack,
+    title={Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection},
+    author={Piotr Kawa and Marcin Plata and Piotr Syga},
+    year={2022},
+    eprint={2206.13979},
+    archivePrefix={arXiv},
+    primaryClass={cs.SD}
+}
+```
 
 
