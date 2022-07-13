@@ -14,9 +14,9 @@ We base our codebase on [WaveFake's repository](https://github.com/RUB-SysSec/Wa
 
 Download appropriate datasets:
 
-* [ASVspoof2021](https://zenodo.org/record/4837263),
+* [ASVspoof2019 LA subset](https://datashare.ed.ac.uk/handle/10283/3336),
 * [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb#access-request-form),
-* [WaveFake](https://zenodo.org/record/5642694).
+* [WaveFake](https://zenodo.org/record/5642694) (along with JSUT and LJSpeech).
 
 
 ### Dependencies
