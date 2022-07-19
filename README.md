@@ -18,7 +18,7 @@ Download appropriate datasets:
 * [FakeAVCeleb](https://github.com/DASH-Lab/FakeAVCeleb#access-request-form),
 * [WaveFake](https://zenodo.org/record/5642694) (along with JSUT and LJSpeech).
 
-The above datasets should contain a total of 286,014 samples.
+The above datasets result in a total of 286,014 samples used in training procedure.
 
 
 ### Dependencies
