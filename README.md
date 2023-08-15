@@ -144,13 +144,13 @@ python evaluate_models.py --asv_path ../datasets/ASVspoof2021/LA --wavefake_path
 If you use this code in your research please use the following citation:
 
 ```
-@misc{kawa2022attack,
-    title={Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection},
-    author={Piotr Kawa and Marcin Plata and Piotr Syga},
-    year={2022},
-    eprint={2206.13979},
-    archivePrefix={arXiv},
-    primaryClass={cs.SD}
+@inproceedings{kawa22_interspeech,
+  author={Piotr Kawa and Marcin Plata and Piotr Syga},
+  title={{Attack Agnostic Dataset: Towards Generalization and Stabilization of Audio DeepFake Detection}},
+  year=2022,
+  booktitle={Proc. Interspeech 2022},
+  pages={4023--4027},
+  doi={10.21437/Interspeech.2022-10078}
 }
 ```
 
